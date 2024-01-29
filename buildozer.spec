@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = XMPhotos
+title = XtremeMomentsPhotos
 
 # (str) Package name
 package.name = myapp
@@ -37,7 +37,7 @@ version = 1.0
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,hostpython3,pillow, kivy
+requirements = python3==3.7.6,hostpython3==3.7.6,kivy==2.3.0,pillow,cython==0.29.24
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -64,10 +64,10 @@ orientation = landscape
 # author = © Copyright Info
 
 # change the major version of python used by the app
-#osx.python_version = 3.12.1
+osx.python_version = 3.7.6
 
 # Kivy version to use
-#osx.kivy_version = 2.3.0
+osx.kivy_version = 2.3.0
 
 #
 # Android specific
@@ -103,10 +103,10 @@ android.permissions = android.permission.ACCESS_CONTENT_PROVIDERS_EXTERNALLY, an
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-#android.api = 31
+android.api = 31
 
 # (int) Minimum API your APK / AAB will support.
-#android.minapi = 21
+android.minapi = 21
 
 # (int) Android SDK version to use
 #android.sdk = 20
