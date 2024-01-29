@@ -12,7 +12,7 @@ import random
 class BlockTouchWidget(Widget):
     def on_touch_down(self, touch):
         # Display the overlay image
-        overlay_image = Image(source="/storage/emulated/0/Pictures/xtreme.png", allow_stretch=True)
+        overlay_image = Image(source="xtreme.png", allow_stretch=True)
         overlay_image.size = (min(self.width, self.height), min(self.width, self.height))
         overlay_image.pos = (self.width / 2 - overlay_image.width / 2, self.height / 2 - overlay_image.height / 2)
         self.add_widget(overlay_image)
