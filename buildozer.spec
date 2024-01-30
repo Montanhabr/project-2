@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = XMomentsPhotos
+title = Special
 
 # (str) Package name
 package.name = myapp
