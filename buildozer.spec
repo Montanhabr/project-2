@@ -38,7 +38,7 @@ version = 1.0
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
 # buildozer.spec
-requirements = python3==3.7.6,hostpython3==3.7.6,kivy==<latest_version>,pillow,cython==<latest_version>
+requirements = python3==3.7.6,hostpython3==3.7.6,kivy==2.3.0,pillow,cython==0.29.24
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
