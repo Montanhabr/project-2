@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = XtremeMomentsPhotos
+title = XMomentsPhotos
 
 # (str) Package name
 package.name = myapp
@@ -38,7 +38,7 @@ version = 1.0
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
 # buildozer.spec
-requirements = python3==3.7.6,hostpython3==3.7.6,kivy==2.3.0,pillow,cython==0.29.24
+requirements = python3,kivy==2.1.0,kivymd==0.104.2,pillow==8.3.1
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -65,10 +65,10 @@ orientation = landscape
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3.7.6
+osx.python_version = 3
 
 # Kivy version to use
-osx.kivy_version = 2.3.0
+osx.kivy_version = 2.1.0
 
 #
 # Android specific
