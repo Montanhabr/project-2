@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = XTREMEMOMENTS
+title = XTRMMNTS
 
 # (str) Package name
 package.name = myapp
