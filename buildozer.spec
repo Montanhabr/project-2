@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = MOMENTS
+title = moments
 
 # (str) Package name
 package.name = myapp
