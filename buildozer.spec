@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = xTREME mOMENSTS pHOTO eXPOSURE sYSTEM
+title = Xtreme Moments Photo Exposure System
 
 # (str) Package name
-package.name = myapp
+package.name = xmpes
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = xtrememoments.com
