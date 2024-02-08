@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = moments
+title = xTREME mOMENSTS pHOTO eXPOSURE sYSTEM
 
 # (str) Package name
 package.name = myapp
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = xtrememoments.com
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -29,7 +29,7 @@ source.exclude_exts = spec
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 0.1
+version = 1.0
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
