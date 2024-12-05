@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = XTM
+title = XTM2
 
 # (str) Package name
-package.name = xmTpes
+package.name = xmTpes2
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = xtrememoments.com
@@ -98,7 +98,7 @@ fullscreen = 1
 # (See https://python-for-android.readthedocs.io/en/latest/buildoptions/#build-options-1 for all the supported syntaxes and properties)
 #android.permissions = android.permission.INTERNET, (name=android.permission.WRITE_EXTERNAL_STORAGE;maxSdkVersion=18)
 # android.permission.DISABLE_KEYGUARD, android.permission.SET_SCREEN_COMPATIBILITY
-android.permissions = android.permission.ACCESS_CONTENT_PROVIDERS_EXTERNALLY, android.permission.MANAGE_DOCUMENTS, android.permission.READ_EXTERNAL_STORAGE
+android.permissions = android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_CONTENT_PROVIDERS_EXTERNALLY, android.permission.MANAGE_DOCUMENTS, android.permission.READ_EXTERNAL_STORAGE
 
 # (list) features (adds uses-feature -tags to manifest)
 #android.features = android.hardware.usb.host
